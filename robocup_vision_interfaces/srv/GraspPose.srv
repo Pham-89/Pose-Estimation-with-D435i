@@ -1,0 +1,9 @@
+# Request
+string target_label      # e.g. "RS", "BR"
+
+---
+# Response
+bool success
+string message           # human-readable status, e.g. "not currently detected"
+geometry_msgs/PoseStamped pose
+float32 width_m           # in-plane short-side extent, useful for gripper opening width
