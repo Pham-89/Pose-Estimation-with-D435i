@@ -1,0 +1,1 @@
+Real-time 6-DoF grasping pose estimation for colored Lego blocks, built on ROS2 Humble, Intel RealSense D435i, and PCL. Detects blocks on a table, classifies their shape (square / rectangular) and color (red / green / blue / yellow), and exposes a ROS2 service that returns the grasping pose of any requested block by label (e.g. "RS" = Red Square).
