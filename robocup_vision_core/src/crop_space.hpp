@@ -13,7 +13,7 @@ class CropSpace {
 public:
     // Default constructor uses example bounds (matches your previous values)
     CropSpace(
-        const Eigen::Vector4f &min_pt = Eigen::Vector4f(-0.3f, -0.5f, 0.3f, 1.0f),
+        const Eigen::Vector4f &min_pt = Eigen::Vector4f(-0.3f, -0.5f, 0.1f, 1.0f),
         const Eigen::Vector4f &max_pt = Eigen::Vector4f( 0.3f,  0.5f, 5.0f, 1.0f)
     );
 
