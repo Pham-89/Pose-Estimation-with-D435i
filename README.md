@@ -282,7 +282,7 @@ The camera runs at approximately 30 FPS while the processing loop operates at ap
 Default range:
 
 ```text
-(-0.3, -0.5, 0.3) → (0.3, 0.5, 5.0) meters
+(-0.3, -0.5, 0.1) → (0.3, 0.5, 5.0) meters
 ```
 
 This removes irrelevant areas such as the floor, walls, and background clutter before further processing.
